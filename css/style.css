@@ -1,1 +1,161 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+
+    background:#ffffff;
+
+    color:#1b1b1b;
+
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:25px 10%;
+
+}
+
+.logo h2{
+
+    font-size:30px;
+
+}
+
+.logo span{
+
+    color:#18b65d;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:#1b1b1b;
+
+    font-weight:500;
+
+}
+
+.nav-links a:hover{
+
+    color:#18b65d;
+
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:85vh;
+
+    text-align:center;
+
+    padding:0 20px;
+
+}
+
+.hero h1{
+
+    font-size:64px;
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    max-width:650px;
+
+    margin:auto;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    color:#555;
+
+}
+
+.buttons{
+
+    margin-top:40px;
+
+}
+
+.btn-primary{
+
+    display:inline-block;
+
+    padding:16px 34px;
+
+    background:#18b65d;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    margin-right:20px;
+
+}
+
+.btn-secondary{
+
+    display:inline-block;
+
+    padding:16px 34px;
+
+    border:2px solid #18b65d;
+
+    color:#18b65d;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+}
